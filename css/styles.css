@@ -1,12 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Diplomata|Kavoon');
 /* globals*/
 body {
  position: relative;
 }
 .text-shadow {
-  text-shadow: 3px 3px #333;
+  text-shadow: 4px 3px #333;
 }
-
-
+.green-text {
+  color: #00e600;
+}
+h1 {
+  font-family: 'Diplomata', cursive;
+}
+h2 {
+  font-family: 'Kavoon', cursive;
+}
 /*header Stules*/
 
 .navbar {
@@ -34,13 +42,13 @@ body {
 #logo {
   margin-bottom: 15px;
 }
-
-/*jumbotron stylea*/
+ /*jumbotron stylea*/
 .jumbotron {
   background-image: url('../img/keyboard2.jpeg');
-  height: 300px;
+  height: 500px;
   background-position: center;
   background-size: cover;
+  margin-bottom: 0px;
 }
 
 #jumbotron-text {
@@ -48,6 +56,46 @@ body {
 }
 
 #jumbotron-text h1 {
-  font-size: 8em;
-  margin-top: 50px;
+  font-size: 5em;
+  margin-top: 100px;
+}
+.jumbotron h1 {
+  animation: name 5s;
+
+}
+@keyframes name {
+    0% {
+    transform: scale(.01);
+  }
+  100% {
+    transform: scale(1);
+  }
+
+}
+/*Projects Styles*/
+#first-website-background{
+  background-color: #806000;
+  height: 600px;
+}
+.carousel-inner>.item>img, .img-responsive {
+  padding-top: 6%;
+}
+#second-website-background{
+  background-color: #405600;
+  height: 600px
+}
+
+#third-website-background{
+  background-color: #004d00;
+  height: 600px;
+}
+.site-pics {
+  padding: 0px;
+  border: 23px solid rgba(76, 175, 80, 0.3);
+}
+
+/*About Section Styles*/
+#about {
+  background-color: rgba(76, 175, 80, 0.5);
+  height: 400px;
 }
