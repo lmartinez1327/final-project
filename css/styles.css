@@ -101,13 +101,7 @@ h2 {
   padding: 0px;
   border: 23px solid rgba(76, 175, 80, 0.3);
 }
-.btn-primary {
-  background-color: rgba(76, 175, 80, 0.3);
-  border: yellow;
-}
-.btn-primary:hover {
-  background-color: #ffd11a;
-}
+
 /*About Section Styles*/
 #contact {
   background-color: rgba(76, 175, 80, 0.5);
