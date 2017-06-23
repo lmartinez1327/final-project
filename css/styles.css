@@ -4,7 +4,7 @@ body {
  position: relative;
 }
 .text-shadow {
-  text-shadow: 4px 3px #333;
+  text-shadow: 3px 1px #323;
 }
 .green-text {
   color: #00e600;
@@ -59,9 +59,14 @@ h2 {
   font-size: 5em;
   margin-top: 100px;
 }
+@media screen and (max-width: 800px){
+  #jumbotron-text h1 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
 .jumbotron h1 {
   animation: name 5s;
-
 }
 @keyframes name {
     0% {
@@ -69,8 +74,10 @@ h2 {
   }
   100% {
     transform: scale(1);
-  }
-
+    }
+}
+.jumbotron p {
+  font-weight: bold;
 }
 /*Projects Styles*/
 #first-website-background{
@@ -93,9 +100,22 @@ h2 {
   padding: 0px;
   border: 23px solid rgba(76, 175, 80, 0.3);
 }
-
+.btn-primary {
+  background-color: rgba(76, 175, 80, 0.3);
+  border: yellow;
+}
+.btn-primary:hover {
+  background-color: #ffd11a;
+}
 /*About Section Styles*/
-#about {
+#contact {
   background-color: rgba(76, 175, 80, 0.5);
-  height: 400px;
+  height: 600px;
+  padding-top: 20px;
+}
+@media screen and (min-width: 700px) {
+  #contaact {
+    background-color: blue;
+    height: 700px;
+  }
 }
