@@ -114,3 +114,7 @@ h2 {
     height: 700px;
   }
 }
+.btn-default {
+    color: #333;
+    background-color: #808080;
+    border-color: #808080;
